@@ -14,6 +14,7 @@ public class Witaj {
             {
                 tekst = skaner.nextLine();
                 if (!tekst.equals("exit")){
+                //Tutaj dodaję komentarz dlaczego nie może być przy tekstach '!=' ?
                     System.out.println("Wpisałeś '" + tekst + "' żeby wyjść z aplikacji musisz wpisać 'exit'.");
                 }
             }while (!tekst.equals("exit"));
