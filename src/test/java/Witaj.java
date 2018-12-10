@@ -6,13 +6,13 @@ class Witaj {
         {
             System.out.println("Witaj!");
 
-            Scanner skaner = new Scanner(System.in);
+            Scanner pobierzTekst = new Scanner(System.in);
             System.out.println("Żeby wyłączyć program napisz 'exit'");
             String tekst;
 
             do
             {
-                tekst = skaner.nextLine();
+                tekst = pobierzTekst.nextLine();
                 //Tutaj dodaję komentarz dlaczego nie może być przy tekstach '!=' ?
                 if (!tekst.equals("exit")) {
                     System.out.println("Wpisałeś '" + tekst + "' żeby wyjść z aplikacji musisz wpisać 'exit'.");
