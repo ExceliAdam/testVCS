@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Witaj {
+class Witaj {
 
-        public static void main(String[] args)
+    public static void main(String[] args)
         {
             System.out.println("Witaj!");
 
@@ -13,12 +13,15 @@ public class Witaj {
             do
             {
                 tekst = skaner.nextLine();
-                if (!tekst.equals("exit")){
                 //Tutaj dodaję komentarz dlaczego nie może być przy tekstach '!=' ?
+                if (!tekst.equals("exit")) {
                     System.out.println("Wpisałeś '" + tekst + "' żeby wyjść z aplikacji musisz wpisać 'exit'.");
                 }
             }while (!tekst.equals("exit"));
 
+
         }
+
+
 
 }
